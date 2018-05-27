@@ -211,7 +211,7 @@ img .img-circle{
 	PORTFOLIO SECTION
 --------------------------------*/
 #portfolio{
-	margin: 0 100px;
+	margin: 0 100px 50px 100px;
 }
 
 #portfolio .portfolio-filters {
@@ -356,6 +356,60 @@ img .img-circle{
 	max-width: 100%;
 	height: auto;
 }
+
+/*--------------------------------------
+CONTACT SECTION
+---------------------------------------*/
+.contact-section{
+	background-color: #222;
+	color: #fff;
+	padding: 50px 0;
+
+}
+.contact-title{
+	color: #fff;
+}
+.message{
+	margin-bottom: 35px;
+}
+strong{
+	font-weight: bold;
+}
+.message hr, .other-channels hr{
+	display:block;
+	border: 0;
+	border-top: 2px solid #72587F;
+	margin: 1em 0;
+	padding: 0;
+}
+.btn-message{
+	background-color: #72587F;
+	color: #fff;
+	border-radius: 0px;
+	font-size: 16px;
+	padding: 5px 40px;
+}
+.social-links{
+	margin-top: 5px;
+}
+.social-links i, .social-icons i{
+	background:#fff;
+	margin: 5px 5px;
+	border-radius: 100%;
+	padding: 8px;
+	line-height: 1;
+	color: #72587F;
+}
+
+.social-links i:hover, .social-icons i:hover{
+  background: #72587F;
+}
+
+.social-links a:hover i, .social-icons i:hover {
+  color: #fff;
+} 
+
+
 
 /*--------------------------------------
 	MEDIA QUERIES
