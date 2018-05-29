@@ -175,7 +175,7 @@ img .img-circle{
 	padding: 100px 0;
 }
 .skills-container{
-	margin: 0 10px;
+
 }
 .heading{
 	text-align: center;
@@ -408,7 +408,11 @@ strong{
 .social-links a:hover i, .social-icons i:hover {
   color: #fff;
 } 
-
+.page-footer{
+	background-color: #222;
+	color: #fff;
+	padding-bottom: 10px;
+}
 
 
 /*--------------------------------------
