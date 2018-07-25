@@ -1,0 +1,29 @@
+{
+  "name": "full-stack-portfolio",
+  "version": "1.0.0",
+  "description": "Evelyn Cude Web Developer Portfolio",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "method-override": "^3.0.0",
+    "nodemailer": "^4.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvelynCude/Full-Stack-Portfolio.git"
+  },
+  "author": "Evelyn Cude",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvelynCude/Full-Stack-Portfolio/issues"
+  },
+  "homepage": "https://github.com/EvelynCude/Full-Stack-Portfolio#readme"
+}
