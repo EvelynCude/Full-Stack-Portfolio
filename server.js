@@ -45,8 +45,8 @@ app.post("/send",  (req, res) => {
         port: 2525,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: '1d0bb6d5d6e918', // generated ethereal user
-            pass: '750c9bdd78460b' // generated ethereal password
+            user: '9f00a07b1f1435', // generated ethereal user
+            pass: '5a6de2233210d4' // generated ethereal password
         },
         // NEEDED FOR TESTING ON LOCALHOST
         tls:{
@@ -56,7 +56,7 @@ app.post("/send",  (req, res) => {
 
     // setup email data 
     let mailOptions = {
-        from: '"Nodemailer Contact Form 👻" <074fb65e-b631-5084-9fa2-6fdfb247cb36@inbox.mailtrap.io>', // sender address
+        from: '"Nodemailer Contact Form 👻" <0fae438c0c-b6a651@inbox.mailtrap.io>', // sender address
         to: 'evelyncude@gmail.com', // list of receivers
         subject: 'Nodemailer contact message', // Subject line
         text: 'Hello world?', // plain text body
